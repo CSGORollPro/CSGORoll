@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSGOROLL Pro</title>
+    <style>
+        body {
+            font-family: Montserrat, sans-serif;
+            margin: 10px;
+	    background-color: #31353d;
+	    color: white;
+	    font-size: 15px;
+        }
+	p {
+	    font-size: 14px;
+	}
+        h1 {
+            font-size: 12px;
+	    color: #ff5548;
+        }
+	h2 {
+	    font-size: 12px;
+	    text-align: center;
+	}
+	h3 {
+	    font-size: 15px;
+	    text-align: center;
+	    font-family: Poppins, sans-serif;
+	    font-weight: bold;
+	    margin-bottom: 0px;
+	    color: #ff5548;
+	}
+	h5 {
+	    font-size: 14px;
+	    text-align: center;
+	    font-family: Montserrat, sans-serif;
+	    font-weight: bold;
+	    margin-bottom: 0px;
+	    color: #ff5548;
+	}
+        #result {
+            margin-top: 20px;
+        }
+	button#calculateButton {
+	    background-color: #00c74d;
+	    border-radius: 10px;
+	    padding: 5px;
+	    box-shadow: 0 10px 27px #00ff0c1a,0 -3px #00913c inset,0 2px #35d87b inset !important;
+	    text-transform: uppercase;
+	    font-family: Poppins, sans-serif;
+	    cursor: pointer;
+	    border: 0px solid #ccc;
+	    color: white;
+	    margin-top: 30px;
+	    width: 100%;
+	}
+	button#refferalButton {
+	    background-color: #ff5548;
+	    border-radius: 10px;
+	    padding: 5px;
+	    box-shadow: 0 10px 27px #ff55481a, 0 -3px #db3d31 inset, 0 2px #ff5548 inset !important;
+	    text-transform: uppercase;
+	    font-family: Poppins, sans-serif;
+	    cursor: pointer;
+	    border: 0px solid #ccc;
+	    color: white;
+	    margin-top: 7px;
+	    width: 100%;
+	}
+	#targetLevel {
+	    border-radius: 10px;
+	    padding: 5px;
+	    text-align: center;
+	    width: 100%;
+	    font-family: Montserrat, sans-serif;
+	    margin-bottom: 10px;
+	    margin-top : 5px;
+	    box-shadow: 10 3px #ffffff05, inset 0 1px 1px #0000001a;
+	}
+	#xp {
+	    padding: 5px;
+	    margin-bottom: 10px;
+	    margin-top : 5px;
+	    border: 0px solid #ccc;
+	    border-radius: 5px;
+	    box-shadow: 10 3px #ffffff05, inset 0 1px 1px #0000001a;
+	}
+	#calculatorForm {
+	    margin: 5px;
+	}
+	#username {
+	    margin-bottom: 10px;
+	    margin-top : 5px;
+	    padding: 5px;
+	    border-radius: 5px;
+	    border: 0px solid #ccc;
+	    box-shadow: 10 3px #ffffff05, inset 0 1px 1px #0000001a;
+	}
+    </style>
+</head>
+<body>
+    <h1>USE CODE: HIGHPOTENTIAL</h1>
+    <form id="calculatorForm">
+        <label for="xp">Your XP:</label>
+        <input type="number" id="xp" name="xp" required>
+        <br>
+        <label for="targetLevel">Target Level:</label>
+        <select id="targetLevel" name="targetLevel" required>
+            <option value="115200">Level 10</option>
+            <option value="447000">Level 20</option>
+            <option value="1336300">Level 30</option>
+            <option value="3722400">Level 40</option>
+            <option value="10133300">Level 50</option>
+            <option value="27374200">Level 60</option>
+            <option value="73762700">Level 70</option>
+            <option value="198606800">Level 80</option>
+            <option value="534633200">Level 90</option>
+            <option value="1439116000">Level 100</option>
+        </select>
+        <br>
+
+        <label for="username">CSGOROLL Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+	<h2>NEED TO USE CODE</h2>
+	<h3>HIGHPOTENTIAL</h3>
+        <button type="button" id="calculateButton">Calculate</button>
+	<a href="https://www.csgoroll.com/en/top-up" target="_blank"><button type="button" id="refferalButton">APPLY CODE</button></a>
+	</form>
+    <br>
+
+    <div id="result"></div>
+    <script src="content.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
