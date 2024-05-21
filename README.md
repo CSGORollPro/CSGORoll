@@ -10,6 +10,13 @@ Now you can withdraw items at best price on Roll!! (Works only on code users, me
 
 ![image](https://github.com/CSGORollPro/CSGORoll-Pro/assets/170271871/a6e8172a-2404-4243-a940-bd69dd5978a8)
 
+How to add the extension?
+-------------------
+1. Go to Managage Extensions (Google Chrome - chrome://extensions/)
+2. Turn on Developer Mode
+3. Click Load Unpacked
+4. Open the CSGORoll Pro Folder
+
 How it works?
 -------------------
 <p><b>Your XP</b> = The XP that you have currently</p>
